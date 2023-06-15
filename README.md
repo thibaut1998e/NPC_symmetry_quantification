@@ -10,7 +10,8 @@ Please sapecify
 *thershold_conversion_to_pc* : images are converted to point clouds, defined as the set of pixel coordinates higher than a given threshold. Please make sure that this value is coherent with your image range
 
 *alpha* : We keep a proportion alpha of the nearest points from the center
-thersh_activated_sectors : A sector is activated if the total number of points that it contains is greater than 'thersh_activated_sectors' times the total number of points in the image
+
+*thersh_activated_sectors* : A sector is activated if the total number of points that it contains is greater than 'thersh_activated_sectors' times the total number of points in the image
 
 
 
