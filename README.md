@@ -1,4 +1,7 @@
 # NPC_symmetry_quantification
+
+## Python dependencies
+
 Dependencies (and version the software has been teste on):
 - matplotlib (3.6.1)
 - pandas (1.5.0)
