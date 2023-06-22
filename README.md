@@ -1,4 +1,17 @@
 # NPC_symmetry_quantification
+Dependencies :
+- matplotlib
+- pandas
+- numpy
+- imageio or mrcfile depending on the type of ile you want to read
+
+Versions the software has benn tested on :
+- matplotlib 3.6.1
+- pandas 1.5.0
+- numpy 1.23.1
+- imageio 2.22.1
+- mrcfile 1.4.3
+
 
 This code takes as input a folder containing 2D crops of the Nuclear Pore Complex (NPC). Each crop is separated in 8 sectors and the number of activated sectors is counted. Then the histogram of the number of activated sectors is saved. 
 Please sapecify 
