@@ -1,4 +1,4 @@
-# NPC_symmetry_quantification
+# Quantification of the symmetry of Nuclear Pore Complex
 
 ## Python dependencies
 
