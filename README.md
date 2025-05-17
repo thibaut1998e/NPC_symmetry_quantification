@@ -18,7 +18,10 @@ pip install mrcfile
 
 ## Instructions of use
 
-This code takes as input a folder containing 2D crops of the Nuclear Pore Complex (NPC). Each crop is separated in 8 sectors and the number of activated sectors is counted. Then the histogram of the number of activated sectors is saved, as well as the separation in 8 sectors for each NPC crop. 
+This code takes as input a folder containing 2D crops of the Nuclear Pore Complex (NPC), which is a large protein assembly embedded in the nuclear envelope that regulates the transport of molecules between the nucleus and the cytoplasm, and is characterized by its 8-fold rotational symmetry. 
+
+Each crop is separated into 8 sectors, and the number of activated sectors is counted. Then, the histogram of the number of activated sectors is saved, along with the sector separation data for each NPC crop
+
 Please sapecify 
 
 *npc_path* : the input folder containing a set of 2D NPC crops. It has to be square images, they do not need to have the same shape
