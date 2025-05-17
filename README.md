@@ -24,7 +24,7 @@ Each crop is separated into 8 sectors, and the number of activated sectors is co
 
 ![My Image](NPC_symmetry_quantification.png)
 
-Please sapecify 
+Please specify 
 
 *npc_path* : the input folder containing a set of 2D NPC crops. It has to be square images, they do not need to have the same shape
 
