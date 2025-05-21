@@ -1,5 +1,14 @@
 # Quantification of the symmetry of Nuclear Pore Complex
 
+## Goal of the project 
+
+This code takes as input a folder containing 2D crops of the Nuclear Pore Complex (NPC), which is a large protein assembly embedded in the nuclear envelope that regulates the transport of molecules between the nucleus and the cytoplasm, and is characterized by its 8-fold rotational symmetry. 
+
+Each crop is separated into 8 sectors, and the number of activated sectors is counted. Then, the histogram of the number of activated sectors is saved, along with the sector separation data for each NPC crop (see image bellow from the paper [iU-ExM: nanoscopy of organelles and tissues with iterative ultrastructure expansion microscopy](https://www.nature.com/articles/s41467-023-43582-8))
+
+![My Image](NPC_symmetry_quantification.png)
+
+
 ## Python dependencies
 
 Dependencies (and version the software has been teste on):
@@ -17,12 +26,6 @@ pip insatll imageio
 pip install mrcfile
 
 ## Instructions of use
-
-This code takes as input a folder containing 2D crops of the Nuclear Pore Complex (NPC), which is a large protein assembly embedded in the nuclear envelope that regulates the transport of molecules between the nucleus and the cytoplasm, and is characterized by its 8-fold rotational symmetry. 
-
-Each crop is separated into 8 sectors, and the number of activated sectors is counted. Then, the histogram of the number of activated sectors is saved, along with the sector separation data for each NPC crop (see image bellow from the paper [iU-ExM: nanoscopy of organelles and tissues with iterative ultrastructure expansion microscopy](https://www.nature.com/articles/s41467-023-43582-8))
-
-![My Image](NPC_symmetry_quantification.png)
 
 Please specify 
 
